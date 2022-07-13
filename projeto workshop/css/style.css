@@ -3,100 +3,78 @@
     padding: 0;
 }
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 }
 .container {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
 }
 header {
-    background-color: rgb(160, 160, 248);
+    background-color: #48C5CE;
+    text-align: center;
+    color: white;
     padding: 10px;
 }
-.logo {
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+.title {
+    font-size: 26px;
+}
+section {
+    padding: 30px;
+    background-image: url(../img/people.jpg);
+    overflow: hidden;
+    background-size: cover;
+}
+.formcontainer {
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    float: right;
+    padding: 20px;
+}
+h2 {
+    font-size: 16px;
+}
+.mb /*margin bottom*/ {
+    margin-bottom: 15px;
 }
 input, select {
+    width: 100%;
     box-sizing: border-box;
+    padding: 10px;
     border: none;
-    padding: 5px;
-}
-.login {
-    background-color:#FFFFFFBB;
-    padding: 15px;
-    position: relative;
-    width: 300px;
-    height: 480px;
-    float: right;
-    margin: 18px;
-}
-.titulo {
-    padding: 12px;
-    padding-left: 15px;
-    font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.frase {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 15px;
-    padding-bottom: 15px;
-    font-size: 1.2rem;
-}
-.nome {
-    padding-left: 15px;
-    padding-bottom: 16px;
-}
-.nome-input {
-    font-size: 1.2rem;
-    padding-right: 30px ;
-    padding-top: 6px ;
-    padding-bottom: 6px;
-}
-.email {
-    padding-left: 15px;
-    padding-bottom: 16px;
-}
-.email-input {
-    font-size: 1.2rem;
-    padding-right: 30px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
-.estados {
-    padding-left: 15px;
-    padding-bottom: 10px;
-}
-.estados-input {
-    padding-left: 5px;
-    padding-right: 134px;
-    padding-bottom: 8px;
-    padding-top: 8px;
-    font-size: 1rem;
-    position: relative;
-}
-.seta {
-    background-image:url(../img/arrow.jpg);
-    background-repeat:no-repeat;
-    background-position: 99.2%;
-    cursor:pointer;
-
+    margin-bottom: 10px;
 }
 .botão {
-    padding-left: 15px;
-    padding-bottom: 10px;
-}
-.botão-input {
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    border: none;
+    background-color: #48C5CE;
     color: white;
-    background-color: rgb(160, 160, 248);
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 6px ;
-    padding-top: 6px;
+    font-weight: bold;
+}
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../img/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+footer {
+   background-color: #202121;
+   padding: 40px;
+   text-align: center;
+}
+.hp {
+    text-align: left;
+    margin-left: 40px;
+    max-width: 40%;
+    display: inline-block;
+    color: white;
+}
+.hp p, h3 {
+    margin-bottom: 20px;
+}
+.hp h3 {
+    font-size: 24px;
+}
+.imagem {
+    width: 160px;
 }
