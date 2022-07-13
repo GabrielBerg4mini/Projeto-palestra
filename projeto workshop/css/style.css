@@ -1,6 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 header {
     background-color: rgb(160, 160, 248);
-    padding: 1px;
+    padding: 10px;
 }
 .logo {
     color: white;
@@ -9,9 +13,10 @@ header {
     font-size: 1.5em;
 }
 .login {
-    border: 2px solid red;
+    background-color: rgb(234, 234, 234);
+    position: relative;
     width: 300px;
-    height: 350px;
+    height: 510px;
     float: right;
     margin: 18px;
 }
@@ -25,4 +30,57 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 15px;
     font-size: 1.2rem;
+}
+.nome {
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+.nome-input {
+    padding-right: 100px ;
+    padding-bottom: 12px;
+}
+.email {
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+.email-input {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.estados {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.estados-input {
+    padding-left: 5px;
+    padding-right: 132px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 1rem;
+    position: relative;
+}
+.seta {
+    background-image:url(../img/arrow.jpg);
+    background-repeat:no-repeat;
+    background-position: 99.2%;
+    cursor:pointer;
+
+}
+.botão {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.botão-input {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    background-color: rgb(160, 160, 248);
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 6px ;
+    padding-top: 6px;
 }
