@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: black;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+}
 header {
     background-color: rgb(160, 160, 248);
     padding: 10px;
@@ -12,11 +19,17 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
 }
+input, select {
+    box-sizing: border-box;
+    border: none;
+    padding: 5px;
+}
 .login {
-    background-color: rgb(234, 234, 234);
+    background-color:#FFFFFFBB;
+    padding: 15px;
     position: relative;
     width: 300px;
-    height: 510px;
+    height: 480px;
     float: right;
     margin: 18px;
 }
@@ -29,6 +42,7 @@ header {
 .frase {
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 15px;
+    padding-bottom: 15px;
     font-size: 1.2rem;
 }
 .nome {
@@ -36,16 +50,18 @@ header {
     padding-bottom: 16px;
 }
 .nome-input {
-    padding-right: 100px ;
-    padding-bottom: 12px;
+    font-size: 1.2rem;
+    padding-right: 30px ;
+    padding-top: 6px ;
+    padding-bottom: 6px;
 }
 .email {
     padding-left: 15px;
     padding-bottom: 16px;
 }
 .email-input {
-    padding-left: 50px;
-    padding-right: 50px;
+    font-size: 1.2rem;
+    padding-right: 30px;
     padding-top: 6px;
     padding-bottom: 6px;
 }
@@ -55,7 +71,7 @@ header {
 }
 .estados-input {
     padding-left: 5px;
-    padding-right: 132px;
+    padding-right: 134px;
     padding-bottom: 8px;
     padding-top: 8px;
     font-size: 1rem;
