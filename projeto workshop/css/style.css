@@ -36,26 +36,30 @@ section {
     background-color: #FFFFFFBB;
     float: right;
     padding: 20px;
+    border-radius: 10px ;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 20px;
+    
 }
 
-.mb
-
-/*margin bottom*/
-    {
+.mb/*margin bottom*/{
+    text-align: center;
     margin-bottom: 15px;
 }
 
 input,
 select {
+    border-radius: 5px;
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
     border: none;
     margin-bottom: 10px;
+}
+input:focus, select:focus{
+    outline: 2px solid #48C5CE;
 }
 
 .botão {
