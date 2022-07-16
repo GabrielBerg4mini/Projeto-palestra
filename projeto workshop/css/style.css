@@ -43,23 +43,23 @@ body {
     background-color: #FFFFFFBB;
     border-radius: 10px;
     width: 40rem;
-    padding: 2rem 2rem;
+    padding: 4rem 2rem;
 }
 h2 {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 p.mb{
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 form {
     display: flex;
     flex-direction: column;
 }
 input, select {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     height: 3rem;
     border-radius: 5px;
 }
@@ -69,15 +69,55 @@ input:focus, select:focus{
 input:focus::placeholder{
     opacity: 0;
 }
-input {
-    padding: 0 4px;
+input, select {
+    padding: 0 5px;
 }
 .botão { 
     background-color: #6991db;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.2rem;
 }
-option:hover {
+select {
+    background-image: url(../img/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+#rodapé {
+    width: 100%;
+    /* min-height: 100vh; */
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo {
+    width: 80%;
+    height: 40rem;
     background-color: red;
 }
+img {
+    width: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*==============================================*/
 /*.mb {
