@@ -34,3 +34,35 @@ body {
     width: 100%;
 }
 /*==============================================*/
+.formcontainer {
+    margin: 3%;
+    float: right;
+    height: 80%;
+    width: 40%;
+    background-color: #FFFFFFBB;
+    border-radius: 10px;
+}
+.mb {
+    text-align: center;
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: 3rem;
+}
+input, select{
+    padding: 15px;
+    width: 94%;
+    margin: 20px;
+    display:flex;
+    border-radius: 5px;
+}
+input:focus, select:focus{
+    outline: 2px solid #7ea2e4;
+}
+.botão {
+    margin-top: 60px;
+    padding: 25px;
+    padding-left: 36%;
+    font-size: 25px;
+    background-color: #6991db;
+}
