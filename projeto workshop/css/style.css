@@ -56,9 +56,6 @@ input, select{
     display:flex;
     border-radius: 5px;
 }
-input ::after {
-    text-emphasis: none;
-}
 input:focus, select:focus{
     outline: 2px solid #7ea2e4;
 }
