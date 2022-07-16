@@ -99,11 +99,11 @@ select {
 .conteudo {
     width: 80%;
     height: 40rem;
-    background-color: red;
+    
     display: flex;
 }
 .img {
-    background-color: blue ;
+   
     width: 40%;
     display: flex;
     justify-content: center;
@@ -113,9 +113,17 @@ img {
     width: 65%;
 }
 .hp {
-    background-color: green;
+   
     width: 60%;
     padding-top: 1rem;
+    color: white;
+    padding-right: 5rem;
+}
+.hp > h3 {
+    font-size: 4rem;
+}
+.hp > p {
+    font-size: 1.5rem;
 }
 
 
